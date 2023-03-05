@@ -11,7 +11,7 @@ PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
 # absolute path of directory_of_interest
 dir_of_interest = os.path.join(PARENT_DIR, "resources")
 
-IMAGE_PATH = os.path.join(dir_of_interest, "images", r"D:\ds Internship 2023\webapp\images\diamondfactoring.jpg")
+IMAGE_PATH = os.path.join(dir_of_interest, "images", "D:\ds Internship 2023\webapp\images\diamondfactoring.jpg")
 DATA_PATH = os.path.join(dir_of_interest, "data","D:\ds Internship 2023\webapp\diamonds.csv")
 
 st.title("Dashboard - Diamonds Data")
